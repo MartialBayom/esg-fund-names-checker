@@ -1,0 +1,61 @@
+{
+  "landscape": {
+    "funds_returned_by_keyword_search": 3846,
+    "funds_in_scope": 1760,
+    "pab_exclusions": 1552,
+    "ctb_exclusions": 208,
+    "thematic_names_to_review": 95,
+    "false_friends_avoided": 46,
+    "funds_with_several_categories": 150,
+    "by_category": {
+      "environmental": 847,
+      "sustainability": 628,
+      "impact": 195,
+      "transition": 176,
+      "social": 70,
+      "governance": 2
+    }
+  },
+  "simulation": [
+    {
+      "category": "environmental",
+      "failing_as_is_pct": 90.2,
+      "breach_exclusions_pct": 90.2,
+      "below_80_pct": 1.2,
+      "median_turnover_pct": 3.4,
+      "still_failing_after_selling_pct": 0.0
+    },
+    {
+      "category": "sustainability",
+      "failing_as_is_pct": 86.8,
+      "breach_exclusions_pct": 86.8,
+      "below_80_pct": 0.0,
+      "median_turnover_pct": 2.2,
+      "still_failing_after_selling_pct": 0.0
+    },
+    {
+      "category": "impact",
+      "failing_as_is_pct": 97.8,
+      "breach_exclusions_pct": 93.0,
+      "below_80_pct": 0.0,
+      "median_turnover_pct": 2.3,
+      "still_failing_after_selling_pct": 72.0
+    },
+    {
+      "category": "transition",
+      "failing_as_is_pct": 50.0,
+      "breach_exclusions_pct": 46.5,
+      "below_80_pct": 0.5,
+      "median_turnover_pct": 0.0,
+      "still_failing_after_selling_pct": 10.3
+    },
+    {
+      "category": "social",
+      "failing_as_is_pct": 44.0,
+      "breach_exclusions_pct": 43.8,
+      "below_80_pct": 0.2,
+      "median_turnover_pct": 0.0,
+      "still_failing_after_selling_pct": 0.2
+    }
+  ]
+}
